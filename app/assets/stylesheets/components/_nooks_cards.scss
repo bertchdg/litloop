@@ -1,5 +1,5 @@
 .nook-card {
-    background-color: rgba(255, 255, 255, 0.5); /* Transparent with a light white color */    border-radius: 50px; /* Rounded borders resembling bubbles */
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent with a light white color */    border-radius: $border-radius-lg; /* Rounded borders resembling bubbles */
     padding: 15px;
     margin: 15px;
     text-align: center;

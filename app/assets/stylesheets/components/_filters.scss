@@ -81,7 +81,7 @@
   background-color: $primary;
   color: $danger;
   border: 1px solid $primary;
-  border-radius: 50px;
+  border-radius: $border-radius-lg;
 }
 
 /* Style the accordion panel. Note: hidden by default */
