@@ -1,6 +1,6 @@
 <div class="show-page-wrapper">
   <div class="nook-header mt-4" >
-    <div class="nook-name" style="color: RebeccaPurple"><h1><%= @nook.name %></h1></div></br>
+    <div class="nook-name" style="color: black"><h1><%= @nook.name %></h1></div></br>
         <div class="nook-features" style="font-size: 25px">
           <% if @nook.coffee %>
             <i class="fa-solid fa-mug-hot"></i>
@@ -40,7 +40,7 @@
           <% end %>
         </div></br>
 
-    <div class="nook-location" style="color: RebeccaPurple">
+    <div class="nook-location" style="color: black">
       <h4 data-controller="typed"
         data-typed-strings-value="[<%= @nook.typed_location %>]">
       </h4>

@@ -1,11 +1,16 @@
+
 // OUR LOVELY LITLOOP NEON PASTEL IRIDESCENT COLOR COLORWAY //
-$primary-background: #582E8A; // grape
-$neon-pastel-green: #D3F0DB; // fairy
-$neon-pastel-pink: #FFDEF4; //rose
-$neon-pastel-purple: #AFACF9; // lavender
+// $primary-background: #582E8A; // grape
+// $neon-pastel-green: #D3F0DB; // fairy
+// $neon-pastel-pink: #FFDEF4; //rose
+// $neon-pastel-purple: #AFACF9; // lavender
+
+$primary-background: white ;
+$neon-pastel-green: black ;
+$neon-pastel-pink: black ;
+$neon-pastel-purple: black ;
 
 // OUR FONTS - IMPORT AND DEFINE //
-
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 // font-family: 'Berkshire Swash', cursive;
 $logo-font: 'Berkshire Swash', cursive;
@@ -34,8 +39,8 @@ $warning:   $neon-pastel-green;
 
 // BORDER RADII (BUTTONS AND INPUTS) //
 $border-radius:    5px;
-$border-radius-lg: 2px;
-$border-radius-sm: 2px;
+$border-radius-lg: 10px;
+$border-radius-sm: 1px;
 
 h1 {
   font-family: $header-font;

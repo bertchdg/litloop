@@ -8,7 +8,7 @@
   margin-right: auto;
 
   overflow: none;
-  border-radius: 20px;
+  border-radius: $border-radius;
 
   list-style: none;
 
@@ -17,7 +17,7 @@
 }
 
 .swiper-img {
-  border-radius: 20px;
+  border-radius: $border-radius;
   display: block;
   width: 100%;
 }
